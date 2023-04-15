@@ -1,0 +1,33 @@
+{
+  "device": {
+    "name": "takvim - 11124f90-38c1-4d65-82a7-2af66fe526a1",
+    "description": "",
+    "status": false,
+    "type": "GoogleOAuthProtocol",
+    "model": "GoogleOAuthProtocol",
+    "apiType": "GoogleOAuthProtocol",
+    "protocol": {
+      "client_email": "google-calendar-service@axial-serenity-371221.iam.gserviceaccount.com",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCucSQ9H0YmvyHm\ntHaJfkuqddXqthZ2EnNs77gOxu2JhsUb7j90MZ8DSabPC+NFF+qGKmB06A8MqWYC\nB5gKZAbJvlCoxcV3Mrh+/9ewReUjiJhCFELQehV6bgILKXoJFFzH34J11tAk6qgG\n8GNKbJLRVoZkpiUJZu36KxnuoCRNSGE/fWO9A24CwTX0Q11eJQqXp4qG5S03ljCy\n6t+ee7g2UyTGi5aMZa01XiL0LoLXx5sAfHj7RQY8IdXORHcBVgEIAKnz8VSrvMSK\nk1OtjydGMA39zcev+ogpCv24JXmehM4g8ghJXZzx/dlVY5lK1xBas4Sh/qTO3JP/\nhQaMFzJ9AgMBAAECggEAFrjNEBsZP6XIzCy4fftR7s+vgAWc0l9f4pItBtu5iB7i\nYNt9L2zhOgPncvOo9FCDr1soukGZ6DvOejg0ATJ7Qd8E0Z8FNBwKtRwtI5xPFvxN\nXNoXw+ELGCnpITwTVchtt2kxLJlA/nYEUfcQ79pJm3PqSITtsRZTrDDeDVuVru0l\np35LYSCPiJVyupfb1zEbRhyqzdA1ael0ovsUvcnDFsXy4YR6PujycE3GTL6G4Wvx\nBaaWpVV0w/GU4mpdt4GgDgZsW/t6yQVBEc0aBonSnzU2MSpWgrJ55epl3/qYO9Ba\nxtBmc3gxOrn4TVutvYIPdDWrE87oK87oBvWPVT1GPwKBgQDvQnWBTWooj7qLRwUk\nOtfNcL3qZzTKr4sTjdShRgGtzz81bGBeRXIF7RNVJFqLqU+AfvgWv49UruzJFBaE\nAuktpU1l7kDeySDa6BYQ2bBw4BN8dU9SbFZGMTRhm73mVGLGnObrHug9ZEHdYLcn\nmsHB1PuAd4Sqwn0jrzcxrdGprwKBgQC6pbCTYzroD0TDp/4Miv1lACsy3COBXxFK\nQ9lUWKvqcs1pWRQXLD2rpzsG1ck19vrm1RPqo9P6tmLz7TKyznZvcXDA/RoxdzAO\nEc2IDX+F5BW4EpOrf3/0C5eUWPfQwSf25ZteENBO/LtttW16wPzpc6WYMRMSEB58\n3jlHxtEtkwKBgECCRLhWLRc+mWdQALzh+Kl1il8W8I7tgawGA5xwCafZRwuaaulA\nBBxA7YN5R8h8H+lfUnifsX99om4csm1pc4FRHmsrL+ZhiDA9fyWP7Bii8d4OqxJo\nD2LhhWQD39GoUvGGAGTIcomK7I9JslhFS5R9Xkom72gzBBaI+XK1kOAVAoGAW/Gb\nFj/fmMlMuoVa5JrjUInQvfErnGNUhRz/RkmYBpofDjJPb0rf5lsu/KL7x5Wu618z\nvHaPygVmoXrLasHCHgvn22nTKWLpTUT/1nGvzCkbed3M2MKqKXI8bVuWWEOOiFV7\nP89Qjlh5jAW/tKS08duCS4KBPniqTCC8XttV1/kCgYEAzOzURbTLDvE4h+dDbyOK\nvFwCvcZuIAKyk2Sp7ocrqjOzILbCgy5dPjni5QNtsCfLaFAltAptXf4ldyOo7pDh\n9QKaTHrx7FqUmA3TQ5q7hGuMCGUDQgASzCUodoMPUfVsv22O4Kw9X4W6y4Zr39YB\np1ez5TmEIX/SRdbJQnBFTVk=\n-----END PRIVATE KEY-----\n",
+      "calendarId": "test4hera@gmail.com",
+      "scope": "https://www.googleapis.com/auth/calendar"
+    }
+  },
+  "commands": [
+    {
+      "name": "get list",
+      "description": "",
+      "commandDetails": {
+        "command": "get list",
+        "request": "LIST_EVENT",
+        "filter": [
+          {
+            "key": "maxResults",
+            "value": "10"
+          }
+        ]
+      },
+      "type": "GoogleCalendarCommand"
+    }
+  ]
+}

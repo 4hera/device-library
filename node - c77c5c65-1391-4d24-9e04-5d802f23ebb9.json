@@ -1,0 +1,19 @@
+{
+  "device": {
+    "name": "node - c77c5c65-1391-4d24-9e04-5d802f23ebb9",
+    "description": "",
+    "status": false,
+    "type": "TcpIpProtocol",
+    "model": "NodeRedControlPathTcpIpProtocol",
+    "apiType": "NodeRedControlPathTcpIpProtocol",
+    "protocol": {
+      "ip": "192.168.1.33",
+      "port": 778,
+      "keepConnection": true,
+      "delimiter": "RN",
+      "waitResponse": false,
+      "isHex": false
+    }
+  },
+  "commands": []
+}
