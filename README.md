@@ -12,7 +12,7 @@
 
 <br/>
 <p align="center">
-  <img src="http://portal.4thewall.com/admin/assets/upload_file/control%20path%20web%20widget.png" alt="Logo" />
+  <img src="http://portal.4thewall.com/admin/assets/upload_file/control%20path%20device%20library.png" alt="Logo" />
 </p>
 
 
