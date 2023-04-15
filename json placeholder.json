@@ -1,0 +1,27 @@
+{
+  "device": {
+    "name": "{JSON} Placeholder - 980439c8-24ac-4bca-bc94-e27e56f772bb",
+    "description": "",
+    "type": "HttpProtocol",
+    "apiType": "HttpProtocol",
+    "protocol": {
+      "hostname": "https://jsonplaceholder.typicode.com",
+      "basePath": "/"
+    },
+    "status": false
+  },
+  "commands": [
+    {
+      "name": "todos",
+      "description": "",
+      "commandDetails": {
+        "command": "todos/{{index}}",
+        "request": "GET",
+        "headers": [],
+        "body": null,
+        "timeout": 0
+      },
+      "type": "HttpCommand"
+    }
+  ]
+}
