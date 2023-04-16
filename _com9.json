@@ -1,0 +1,37 @@
+{
+  "device": {
+    "name": "COM9",
+    "description": "",
+    "status": false,
+    "type": "SerialCommunicationProtocol",
+    "model": "SerialCommunicationProtocol",
+    "apiType": "SerialCommunicationProtocol",
+    "protocol": {
+      "comName": "COM9",
+      "delimiter": "RN",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "isAuth": false,
+      "isHex": false,
+      "keepConnection": true,
+      "waitResponse": false,
+      "auth": {
+        "user": {
+          "regex": "",
+          "username": "",
+          "timeout": "",
+          "endChar": ""
+        },
+        "pass": {
+          "regex": "",
+          "username": "",
+          "timeout": "",
+          "endChar": ""
+        }
+      }
+    }
+  },
+  "commands": []
+}
