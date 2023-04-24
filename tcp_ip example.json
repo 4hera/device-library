@@ -1,0 +1,55 @@
+{
+  "device": {
+    "name": "TCP/IP Example",
+    "description": "Example Device",
+    "status": false,
+    "type": "TcpIpProtocol",
+    "model": "TcpIpProtocol",
+    "apiType": "TcpIpProtocol",
+    "protocol": {
+      "ip": "127.0.0.1",
+      "port": 23,
+      "isAuth": false,
+      "isHex": false,
+      "keepConnection": true,
+      "waitResponse": false,
+      "delimiter": "RN",
+      "auth": {
+        "user": {
+          "regex": "",
+          "username": "",
+          "timeout": "",
+          "endChar": ""
+        },
+        "pass": {
+          "regex": "",
+          "username": "",
+          "timeout": "",
+          "endChar": ""
+        }
+      }
+    }
+  },
+  "commands": [
+    {
+      "name": "Status",
+      "description": "",
+      "commandDetails": {
+        "command": "status",
+        "timeout": 0,
+        "endChar": "RN"
+      },
+      "type": "TcpIpCommand"
+    },
+    {
+      "name": "Ping",
+      "description": "",
+      "commandDetails": {
+        "command": "ping",
+        "timeout": 0,
+        "endChar": "RN"
+      },
+      "type": "TcpIpCommand"
+    }
+  ]
+}

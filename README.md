@@ -19,11 +19,12 @@
     
 ## Lists
 
-- 4THEWALL
-    * SC-PSW0402E-A
-    * SC-SW0402R-A
--    
+- Example
+    * TCP/IP   
 
+## Release Notes
+
+- 24/04/2023 TCP/IP example added. 
 
 ## License
 
