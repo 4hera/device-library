@@ -1,0 +1,48 @@
+{
+  "device": {
+    "name": "extio 3",
+    "description": "",
+    "brand": "",
+    "status": false,
+    "type": "MatroxExtio3Protocol",
+    "model": "MatroxExtio3Protocol",
+    "apiType": "MatroxExtio3Protocol",
+    "protocol": {
+      "tx": [
+        {
+          "id": "6f1e5e48-5a85-49ca-88e8-9ccd7eee6824",
+          "name": "TX1",
+          "hostname": "192.168.0.3",
+          "serialNumber": "CD123456",
+          "modelName": "N3208"
+        },
+        {
+          "id": "94159656-88ab-4e3b-956d-d89ca0c02cca",
+          "name": "TX2",
+          "hostname": "192.168.0.4",
+          "serialNumber": "CE123456",
+          "modelName": "N3208"
+        }
+      ],
+      "rx": [
+        {
+          "id": "0420907b-d0b7-42e6-b77e-31e75ba6f3b5",
+          "name": "RX1",
+          "hostname": "192.168.0.2",
+          "serialNumber": "CC123456",
+          "modelName": "N3208"
+        }
+      ],
+      "user": [
+        {
+          "id": "b0a2832a-e255-4d10-891b-847b41356f5d",
+          "username": "admin",
+          "password": "admin"
+        }
+      ],
+      "poolingTime": 10000,
+      "keepConnection": false
+    }
+  },
+  "commands": []
+}
